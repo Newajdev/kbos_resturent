@@ -17,10 +17,14 @@ export default function Navbar() {
   return (
     <div className="flex items-center justify-between">
       <div className="flex items-center gap-x-2">
-        <Image src={"/logo.png"} alt="KB-OS Logo" width={24} height={24} />
+        <div className="w-6 md:w-12 h-6 md:h-12 relative">
+
+        <Image src={"/logo.png"} alt="KB-OS Logo" width={100} height={100} />
+        </div>
         <h2 className="font-bold text-2xl">KB-OS</h2>
       </div>
 
+      {/* Mobile */}
       <div className="md:hidden">
         <button onClick={() => setViewMenu(!viewMenu)} className="transition">
           {viewMenu ? <X /> : <Menu />}
