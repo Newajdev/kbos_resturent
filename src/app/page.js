@@ -1,7 +1,12 @@
-import Image from "next/image";
+import HeroSection from "@/components/landing/HeroSection";
+import LandingContainer from "@/components/landing/LandingContainer";
+
 
 export default function Home() {
   return (
-    <h1>Welcome to Next.js!</h1>
+    <>
+    <HeroSection/>
+    </>
+
   );
 }
