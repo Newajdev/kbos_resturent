@@ -5,7 +5,7 @@ import HeroDesign from './HeroDesign'
 
 export default function HeroSection() {
   return (
-    <div className="relative h-screen">
+    <div className="relative">
       {/* Mobile Background */}
       <div 
         className="absolute inset-0 block lg:hidden -z-10 bg-contain bg-no-repeat"
