@@ -5,7 +5,18 @@ import HeroDesign from './HeroDesign'
 
 export default function HeroSection() {
   return (
-    <div className="bg-[url('/mobleVerssion.png')] lg:bg-[url('/otherVerssion.png')] h-screen bg-contain lg:bg-cover lg:bg-center bg-no-repeat">
+    <div className="relative h-screen">
+      {/* Mobile Background */}
+      <div 
+        className="absolute inset-0 block lg:hidden -z-10 bg-contain bg-no-repeat"
+        style={{ backgroundImage: "url('/mobleVerssion.png')" }}
+      />
+      {/* Desktop Background */}
+      <div 
+        className="absolute inset-0 hidden lg:block -z-10 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/otherVerssion.png')" }}
+      />
+
       <LandingContainer>
         <Navbar/>
         <HeroDesign/>
