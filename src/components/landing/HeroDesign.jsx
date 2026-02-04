@@ -28,7 +28,7 @@ export default function HeroDesign() {
       </div>
 
       <div className="mt-4 lg:mt-12 w-full">
-        <div className="w-full h-41 lg:w-290 lg:h-112 rounded-t-xl lg:rounded-t-2xl bg-amber-300 mx-auto flex justify-center items-center bg-cover bg-center">
+        <div className="w-full h-41 lg:w-290 lg:h-130 rounded-t-xl lg:rounded-t-2xl bg-amber-300 mx-auto flex justify-center items-center bg-cover bg-center">
 
           <div className="w-full h-full bg-[url('/dashboard.png')] bg-cover bg-top rounded-t-xl lg:rounded-t-2xl">
           </div>
